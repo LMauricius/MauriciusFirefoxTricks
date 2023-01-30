@@ -1,0 +1,12 @@
+.titlebar-buttonbox {
+    margin-right: -6px;
+    display: flex;
+    align-items: stretch;
+}
+
+hbox.titlebar-buttonbox-container:nth-child(6) {
+  padding: 0;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: min-content;
+}
