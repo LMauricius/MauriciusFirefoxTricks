@@ -1,0 +1,4 @@
+/* Firefox sets sizemode="maximized" on the root window element. */
+:root[sizemode="maximized"] .titlebar-buttonbox-container {
+  display: none;
+}
